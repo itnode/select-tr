@@ -1,0 +1,53 @@
+<!doctype html>
+<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <title>select-tr Demo</title>
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="../select-tr.html">
+
+    <style>
+        tr.selected {
+            background: yellow;
+        }
+    </style>
+  </head>
+  <body>
+
+    <p>An example of <code>&lt;select-tr&gt;</code>:</p>
+
+    <table>
+
+        <tbody>
+        <tr is="select-tr">
+            <td>Spalte A</td>
+            <td>Spalte B</td>
+            <td><input type="text" name="demo" /></td>
+            <td><input type="checkbox" name="select" /></td>
+        </select-tr>
+        
+        <tr is="select-tr">
+            <td>Spalte A</td>
+            <td>Spalte B</td>
+            <td><input type="text" name="demo" /></td>
+            <td><input type="checkbox" name="select" /></td>
+        </select-tr>
+
+        </tbody>
+
+    </table>
+
+
+
+  </body>
+</html>
